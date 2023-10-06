@@ -1,0 +1,1400 @@
+* {
+  box-sizing:border-box;
+ 
+ 
+
+}
+
+.mynav {
+  padding-top: 0.5em;
+}
+
+.myCarousel {
+  width: 100%;
+  
+
+}
+
+
+.myLogo {
+  color: #036aad;
+  font-family: 'Londrina Solid';
+  font-size: 2em;
+
+}
+
+.myLogo:hover {
+  color: #036aad;
+}
+
+.logoSpan {
+  color:#ffa914;
+}
+
+.navlink {
+  font-family: 'Montserrat';
+  color: black;
+  font-weight: 600;
+  
+}
+
+.navlink:hover {
+  color:#ffa914;
+}
+
+.navicon {
+  color: black;
+  font-size: 1.2em;
+}
+
+.navicon:hover {
+  color:#ffa914;
+}
+
+.car {
+  position: relative;
+}
+
+.food {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  animation-delay: 1s;
+  
+}
+
+.caption {
+  top: 11em;
+  left: 13em;
+  text-align: center;
+  width: fit-content;
+}
+.gif {
+  top:6.5em;
+  left: 16em;
+  height: 5em;
+  position: absolute;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+  animation: swinging 3.5s ease-in-out forwards infinite;
+
+}
+
+@-webkit-keyframes swinging{
+  0%{-webkit-transform: rotate(10deg);}
+  50%{-webkit-transform: rotate(-5deg)}
+  100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+  0%{transform: rotate(10deg);}
+  50%{transform: rotate(-5deg)}
+  100%{transform: rotate(10deg);}
+}
+
+.label {
+  width: 12em;
+  position: relative;
+}
+
+.save {
+  position: absolute;
+  top:1.5em;
+  left: 10em;
+  font-size: 1em;
+}
+.save2 {
+  position: absolute;
+  top:1.5em;
+  left: 12em;
+  font-size: 1em;
+}
+.save1 {
+  position: absolute;
+  top:1.5em;
+  left: 7.5em
+}
+
+.captionh3 {
+  font-family: 'Londrina Solid';
+  font-weight: 400;
+  font-size: 2.5em;
+  width: 11em;
+  
+ 
+}
+.captionh3a {
+  font-family: 'Londrina Solid';
+  font-weight: 400;
+  font-size: 2.5em;
+  width: 10em;
+}
+.captionh3b {
+  font-family: 'Londrina Solid';
+  font-weight: 400;
+  font-size: 2.5em;
+  width: 12em;
+  color: #036aad;
+}
+
+.cap-span {
+  color: #ffa914;
+}
+.cap1-span {
+  color: #036aad
+}
+
+.sec1container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  justify-content: space-evenly;
+ 
+}
+
+.sec1container img {
+  transition: transform .7s ease-in-out;
+}
+
+.sec1container img:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+
+}
+
+.salad {
+  height:18em;
+  border-radius: 1.5em;
+
+}
+.burger {
+  height:18em;
+  border-radius: 1.5em;
+}
+.fries {
+  height:18em;
+  border-radius: 1.5em;
+}
+
+.sec1a {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 1.5em;
+}
+
+.sec1a-h3-a {
+  color: #ff5703;
+  font-family: 'Montserrat';
+  font-size: 1.5em
+}
+
+.sec1a-h3-b {
+  color: white;
+   font-family: 'Londrina Solid';
+    font-size: 2em;
+     width:10em;
+  font-weight: 500;
+  padding-bottom: 1.4em;
+}
+.sec1a-h3-c {
+ color: #036aad;
+ font-family: 'Londrina SOlid';
+ font-size: 1.5em;
+ 
+}
+.sec1a-h3-d {
+ color: #036aad ;
+ font-family: 'Londrina Solid';
+ font-size: 1.5em;
+}
+
+.sec1b {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 1.5em;
+}
+.sec1c {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 1.5em;
+}
+
+.sec1atext {
+  position: absolute;
+  top: 1em;
+  left: 16em;
+}
+.sec1btext {
+  position: absolute;
+  top: 1.5em;
+  left: 4em;
+  text-align: center;
+}
+.sec1ctext {
+  position: absolute;
+  top: 1.5em;
+  left: 1em;
+  
+}
+
+.sec1cbutton{
+  text-decoration: none;
+  color: white;
+  background-color: #ff5703;
+  font-family: 'Montserrat';
+  font-size: 0.7em;
+  padding: 10px 17px;
+  border-radius: 1.5em;
+
+  
+}
+
+.sec1cbutton:hover {
+  background-color: #ffa914;
+  color: white;
+}
+
+.sec2container {
+  display: grid;
+   grid-template-columns: auto auto auto auto;
+   justify-content: space-around;
+   padding-bottom: 2.5em;
+}
+
+.sec2container img {
+   height: 15em;
+  
+}
+  
+
+
+
+
+.sec2a {
+   border: 1px solid #cccccc;
+   border-radius: 1em;
+  
+   position: relative;
+   padding-bottom: 2em;
+   padding-top: 1em;
+   
+}
+.sec2b {
+   border: 1px solid #cccccc;
+   border-radius: 1em;
+ 
+   position: relative;
+   padding-bottom:2em;
+   padding-top: 1em;
+}
+.sec2c {
+   border: 1px solid #cccccc;
+   border-radius: 1em;
+ 
+   position: relative;
+   padding-bottom: 2em;
+   padding-top: 1em;
+}
+.sec2d {
+   border: 1px solid #cccccc;
+   border-radius: 1em;
+  
+   position: relative;
+   padding-bottom: 2em;
+   padding-top: 1em;
+}
+
+.hot {
+   border: none;
+   padding: 0.2em;
+   width: 4em;
+   text-align: center;
+   border-radius: 2em;
+   background-color: #25c848;
+   color: white;
+   font-size: 0.63em;
+   position: absolute;
+   top: 1.7em;
+   left: 1.2em
+}
+.discount {
+   border: none;
+   padding: 0.2em;
+   width: 4em;
+   text-align: center;
+   border-radius: 2em;
+   background-color: #ff2b00;
+   color: white;
+   font-size: 0.63em;
+   position: absolute;
+   top: 4em;
+   left: 1.2em
+}
+
+.big {
+   width:100%
+}
+
+.sec3container {
+  position: relative;
+  display: inline-block;
+}
+
+.sec3a {
+  position: absolute;
+  top: 95em;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.sec3a-p {
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  color: white;
+}
+.sec3a-h3 {
+  font-family: 'Londrina Solid';
+  font-size: 2.8em;
+  color: white;
+}
+
+.shop1 {
+  color: white;
+  text-align: center;
+  border: none;
+  background-color: #b9135f;
+  padding: 0.8em 1.5em;
+  border-radius: 2em;
+  font-size: 1em;
+  
+}
+
+.shop1:hover {
+  background-color: black;
+  color: white;
+}
+
+.sec4container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.sec4 {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  
+}
+
+.sec4:hover .insta1 {
+opacity: 0.7;
+}
+
+.sec4:hover .middle {
+  opacity: 0.8;
+}
+
+.insta {
+  font-size: 1.5em;
+ 
+ 
+
+}
+
+
+
+
+
+.insta1:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+
+}
+
+.insta1 {
+  opacity: 1;
+display: block; 
+height: 13em;
+transition: .5s ease;
+backface-visibility: hidden;
+transition: transform .7s ease-in-out;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+
+  
+}
+
+.middle:hover {
+  display: block;
+  
+}
+
+.follow {
+  text-align: center;
+  font-family: 'Londrina Solid';
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.sec5container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+justify-content: space-between;
+align-items: center;
+
+  padding-top: 1em;
+  padding-bottom: 3em; 
+  padding-left: 4em;
+  padding-right: 4em;
+  
+}
+
+.sec5a-p {
+  color: #a49ba9;
+  font-size: 16px;
+}
+
+.sec5a-p:hover {
+  color: #ffa914;
+  cursor: default;
+}
+
+.sec5c-a {
+  color: #a49ba9;
+  text-decoration: none;
+ 
+
+}
+
+.sec5c-a:hover {
+  color: #ffa914;
+
+}
+
+.signbutton {
+  font-family: "Londrina Solid";
+  font-size: 18;
+  font-weight: 700;
+  background-color: #ffa914;
+  padding: 5px 16px;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  top: 152.5em;
+  right: 25em;
+}
+
+.signupinput {
+  font-family: 'Montserrat';
+  color: #a49ba9;
+  border: 1px solid grey;
+  position: relative;
+  width: 25em;
+  padding: 7px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+.sec6container {
+  display:flex;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top:1em;
+  padding-bottom: 1em;
+  font-family: 'Montserrat';
+}
+
+
+/* Styling for Contact Screen begins here */
+
+.overlaycontainer {
+  width: 100%;
+  overflow: hidden;
+  height: 14em;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  height: 40em;
+  
+}
+
+.chevroncontainer {
+  position: absolute;
+  top: 4em;
+  left: 34.5em;
+}
+
+.contact-h3 {
+  font-family: Londrina Solid;
+  color: white;
+  font-size: 3em;
+}
+
+.home-link {
+  color: white;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 0.8em;
+padding-right: 0.8em;
+
+  
+}
+
+.home-link:hover {
+color: #ffa914;
+}
+
+.contact-p {
+  color: white;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 0.8em;
+  padding-left: 0.8em;
+}
+
+.link-container {
+  display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+}
+
+.myform {
+  width: 40em;
+ 
+}
+
+.contact-formcontain {
+  display: flex;
+  padding-top: 2em;
+  justify-content: space-evenly;
+}
+
+.touch-h3 {
+  font-family: Londrina Solid;
+ margin-bottom: 1em;
+}
+
+.formlabel {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.contact-button {
+  background-color: #ffa914;
+  border: none;
+  font-family: Montserrat;
+  padding: 0.7em 4em;
+  border-radius: 1.5em;
+}
+
+.address-container {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.address-h3 {
+  font-family: Londrina Solid;
+}
+
+.address-p {
+  font-family: Montserrat;
+}
+
+.contact-icon {
+  margin-right: 1em;
+}
+.contact-icon:hover {
+ color: #ffa914;
+ 
+}
+
+.formgroup {
+  margin-bottom: 5em;
+}
+
+.contact-maincontainer {
+  margin-bottom: 3em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+
+
+/* ------------------------shop-------------------- */
+.item-dropdown {
+  border: 1px solid black;
+  border-radius: 10px;
+
+  font-family: Montserrat;
+  margin-top: 80px;
+  margin-left: 5px;
+  
+}
+
+.sorting-container {
+  margin-left: 10px;
+}
+
+.item-grid {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+
+.item-image {
+  max-height: 200px;
+
+
+}
+
+.item-h3 {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600;
+ max-width: 220px;
+
+}
+
+.item-price {
+  font-family: Londrina Solid;
+  font-size: 20px;
+  color: #ffa914;
+}
+
+.item-details {
+  
+  text-align: center;
+}
+
+.item-container {
+  border: 1px solid rgba(128, 128, 128, 0.242);
+  height: 25em;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.item-tag {
+  position: absolute;
+  border: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #25c848;
+  border-radius: 5px;
+  top: 7%;
+  left: 5%;
+}
+
+.item-list-container {
+  margin-bottom: 60px;
+}
+
+.item-add {
+  font-family: Londrina Solid;
+  border: none;
+  background-color: #ffa914;
+  padding: 3px 10px;
+  margin-top: 3px;
+}
+
+/* signup */
+.onboard1 {
+  height: 30em;
+}
+
+.signup-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+}
+
+.signup-form {
+
+padding: 4em 4em;
+
+}
+
+.signup-h3 {
+font-family: Londrina Solid;
+font-size: 2em;
+padding-bottom: 1em;
+}
+
+.signup-form label {
+  font-family: Montserrat;
+ 
+}
+
+.form-group {
+ gap: 2em;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1em;
+ 
+}
+
+
+
+.signupbutton {
+  border: none;
+  background-color: #ffa914;
+  padding: 0.8em 4em;
+  border-radius: 30px;
+  color: white;
+  font-family: Montserrat;
+}
+
+.signup-overlaycontainer {
+  width: 100%;
+  overflow: hidden;
+  height: 14em;
+  position: relative;
+}
+.signup-chevroncontainer {
+  position: absolute;
+  top: 4em;
+  left: 36em;
+}
+.login-overlaycontainer {
+  width: 100%;
+  overflow: hidden;
+  height: 14em;
+  position: relative;
+}
+.login-chevroncontainer {
+  position: absolute;
+  top: 4em;
+  left: 36em;
+}
+
+.loginbutton {
+  border: none;
+  background-color: #ffa914;
+  padding: 0.5em 3em;
+  border-radius: 30px;
+  color: white;
+  font-family: Montserrat;
+}
+
+.login-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+}
+
+.login-form {
+  padding: 4em 4em;
+}
+
+.login-h3 {
+  font-family: Londrina Solid;
+font-size: 2em;
+padding-bottom: 1em;
+}
+
+.login-form label {
+  font-family: Montserrat;
+ 
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  bottom: 60%;
+  left: 90%;
+  background-color: #ffa914;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-size: 8px;
+}
+
+.cart-h1 {
+  font-family: Montserrat;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+
+}
+
+.cart-ul {
+  align-items: 'center';
+  justify-content: 'center';
+  list-style-type: none;
+}
+.item-listing {
+  border: 1px solid rgba(128, 128, 128, 0.121);
+ 
+
+ padding-top: 1em;
+ padding-bottom: 1em;
+align-items: center;
+ display: flex;
+
+
+ padding-left: 2em;
+ padding-right: 5em;
+}
+
+.item-middle {
+ margin-left: 50px;
+  font-family: Londrina Solid;
+  text-align: center;
+}
+
+.item-name1 {
+  font-size: 1.5em;
+  width: 10em;
+}
+
+.item-price1 {
+  font-family: Londrina Solid;
+  color: #ffa914;
+  font-size: 1.4em;
+}
+
+.item-button {
+  background-color: #036aad;
+  border-radius: 15px;
+  padding: 5px 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  border: none;
+}
+
+.remove-button {
+  font-family: Montserrat;
+  font-size: 0.8em;
+  text-decoration: underline;
+  margin-top: 1em;
+  cursor: pointer;
+
+}
+
+.cart-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4em;
+ 
+  
+  
+}
+
+.quantity-button {
+  border: none;
+  background-color: #a49ba975;
+  margin-bottom: 0.5em;
+  
+}
+
+.quantity-control {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* Styles for screens smaller than 768px (phones) */
+@media (max-width: 767px) {
+
+  .caption {
+    top: 1em;
+    left: 3.5em;
+    }
+  
+    .gif {
+      top: 1em;
+      height: 1.5em;
+      left: 4.7em;
+    }
+  
+    .label {
+      width: 4.5em;
+    }
+    
+    .save {
+      left: 5.6em;
+      font-size: 0.4em;
+      top: 4.7em;
+    }
+    .save1 {
+      left: 4em;
+      font-size: 0.4em;
+      top: 4.7em;
+    }
+    .save2 {
+      left: 7em;
+      font-size: 0.4em;
+      top: 4.7em;
+    }
+    .captionh3 {
+      font-size: 0.7em;
+    }
+  
+    .captionh3a {
+      font-size: 0.7em;
+    }
+    .captionh3b {
+      font-size: 0.7em;
+    }
+
+    .sec1container {
+      grid-template-columns: auto;
+      gap: 20px;
+    }
+  
+    .sec1a-h3-a {
+      font-size: 1em;
+    }
+    .sec1a-h3-b {
+      font-size: 1em;
+    }
+    .sec1a-h3-c {
+      font-size: 1em;
+    }
+    .sec1a-h3-d {
+      font-size: 1em;
+    }
+  
+  
+    .sec1atext {
+     left: 10.5em;
+    }
+    .salad {
+      height: 11em;
+    }
+  
+    .sec2container {
+      grid-template-columns: auto;
+      gap: 20px;
+    }
+
+    .sec3a {
+      top: 168em;
+      bottom: auto;
+      }
+    
+      .sec3a-p {
+        font-size: 0.5em;
+      }
+      .sec3a-h3 {
+        font-size: 1em;
+      }
+
+      .shop1 {
+        font-size: 0.6em;
+      }
+
+      .sec4container {
+        grid-template-columns: auto;
+        gap: 5px;
+      }
+
+      
+  .sec5container {
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 20px;
+  }
+
+  .signupinput {
+    width: 15em;
+  }
+
+  .signbutton {
+    display: none;
+  }
+
+  .sec6container {
+    flex-direction: column;
+  }
+    
+
+  .cart-h1 {
+    font-size: 24px; 
+  }
+
+  .cart-list-container {
+    flex-direction: column;
+
+    
+   
+  }
+
+  .item-listing {
+    flex-direction: column;
+    max-width: 19em;
+  
+   
+  }
+
+  .item-image {
+    height: 100px;
+  }
+
+  .cart-subtotal {
+   width: 19em;
+  }
+
+  .cart-total {
+   margin-left: 1.1em;
+   max-width: 21em;
+  }
+
+  .overlaycontainer {
+    width: 100%;
+    height: 10em;
+  }
+  .signup-overlaycontainer {
+    width: 100%;
+    height: 10em;
+  }
+  .login-overlaycontainer {
+    width: 100%;
+    height: 10em;
+  }
+  .overlay{
+    width: 100%;
+    height: 15em;
+  }
+
+  .chevroncontainer {
+    top: 2em;
+    left: 6.5em;
+  }
+  .signup-chevroncontainer {
+    top: 2em;
+    left:8em;
+  }
+  .login-chevroncontainer {
+    top: 2em;
+    left: 8em;
+  }
+
+  .item-grid {
+    grid-template-columns: auto;
+  }
+
+  .item-container {
+    height: 18em;
+  }
+
+  .contact-formcontain {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .myform {
+    width: 20em;
+    margin-bottom: 3em;
+  }
+
+ .signup-contain {
+  flex-direction: column;
+ }
+
+ .onboard1 {
+  height: 15em;
+ }
+
+ .signup-form {
+  width: 100%;
+ } 
+
+ .signup-form input {
+  width: 4.5em;
+ }
+ 
+ .login-contain {
+  flex-direction: column;
+ }
+ 
+ .login-form {
+  width: 100%;
+ } 
+
+ .login-form input {
+  width: 4.5em;
+ }
+}
+
+/* Styles for screens between 768px and 1024px (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .caption {
+    top: 5em;
+    left: 6em;
+    }
+  
+    .gif {
+      top: 3em;
+      height: 3em;
+      left: 11em;
+    }
+  
+    .label {
+      width: 11em;
+    }
+    
+    .save {
+      left: 7em;
+      font-size: 1em;
+      top: 1.4em;
+    }
+    .save1 {
+      left: 5.2em;
+      font-size: 1em;
+      top:1.5em;
+    }
+    .save2 {
+      left: 8.5em;
+      font-size: 1em;
+      top: 1.4em;
+    }
+    .captionh3 {
+      font-size: 2em;
+    }
+  
+    .captionh3a {
+      font-size: 2em;
+    }
+    .captionh3b {
+      font-size: 2em;
+    }
+
+    .sec1container {
+      grid-template-columns:  auto ;
+      gap: 20px;
+    }
+  
+    .sec1a-h3-a {
+      font-size: 2em;
+    }
+    .sec1a-h3-b {
+      font-size: 2em;
+    }
+    .sec1a-h3-c {
+      font-size: 2em;
+    }
+    .sec1a-h3-d {
+      font-size: 2em;
+    }
+  
+  
+    .sec1atext {
+     left: 19em;
+    }
+    .salad {
+      height: 20em;
+    }
+    .fries {
+      height: 20em;
+    }
+    .burger {
+      height: 20em;
+    }
+    
+    .sec2container {
+      grid-template-columns: auto auto;
+      gap: 20px;
+    }
+
+    .sec3a {
+      top: 149em;
+      bottom: auto;
+      }
+    
+      .sec3a-p {
+        font-size: 1em;
+      }
+
+      .sec4container {
+        grid-template-columns: auto auto auto;
+        gap: 5px;
+      }
+
+      .sec5container {
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .signupinput {
+        width: 20em;
+      }
+    
+      .signbutton {
+        display: none;
+      }
+    
+      .sec6container {
+        flex-direction: row;
+      }
+    
+  
+  .cart-h1 {
+    font-size: 36px; /* Example: Adjust font size for tablets */
+  }
+
+  .cart-list-container {
+    flex-direction: column;
+    align-items: center;
+
+    
+   
+  }
+
+  .item-listing {
+    flex-direction: column;
+    max-width: 22em;
+    margin-bottom: 1em;
+  
+  
+   
+  }
+
+  .item-image {
+    height: 100px;
+  }
+
+  .cart-subtotal {
+   width: 19em;
+  }
+
+  .cart-total {
+  
+   width: 100em;
+    
+  }
+
+  .overlaycontainer {
+    width: 100%;
+    height: 15em;
+  }
+
+  .signup-chevroncontainer {
+    top: 4em;
+    left:22em;
+  }
+  .login-chevroncontainer {
+    top: 4em;
+    left:22em;
+  }
+  .overlay{
+    width: 100%;
+    height: 23em;
+  }
+
+  .chevroncontainer {
+    top: 5em;
+    left: 20em;
+  }
+
+  .item-grid {
+    grid-template-columns: auto auto;
+  }
+
+  .item-container {
+    height: 18em;
+  }
+
+  .contact-formcontain {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .myform {
+    width: 40em;
+    margin-bottom: 3em;
+  }
+
+  .signup-contain {
+    flex-direction: column;
+   }
+  
+   .onboard1 {
+    height: 30em;
+   }
+  
+   .signup-form {
+    width: 100%;
+   } 
+  
+   .signup-form input {
+    width: 20em;
+   }
+
+   .login-contain {
+    flex-direction: column;
+   }
+   
+   .login-form {
+    width: 100%;
+   } 
+  
+   .login-form input {
+    width: 20em;
+   }
+    
+
+
+  /* Add more styles as needed */
+}
+
+
+
