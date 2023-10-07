@@ -769,7 +769,7 @@ padding-bottom: 1em;
 }
 
 .form-group {
- gap: 2em;
+ gap: 0.4em;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -1156,7 +1156,7 @@ align-items: center;
  } 
 
  .signup-form input {
-  width: 4.5em;
+  width: 9em;
  }
  
  .login-contain {
@@ -1168,7 +1168,7 @@ align-items: center;
  } 
 
  .login-form input {
-  width: 4.5em;
+  width: 9em;
  }
 }
 
