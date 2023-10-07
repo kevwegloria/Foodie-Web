@@ -1176,7 +1176,7 @@ align-items: center;
 @media (min-width: 768px) and (max-width: 1023px) {
   .caption {
     top: 5em;
-    left: 6em;
+    left: 7em;
     }
   
     .gif {
@@ -1253,7 +1253,7 @@ align-items: center;
     }
 
     .sec3a {
-      top: 149em;
+      top: 151em;
       bottom: auto;
       }
     
@@ -1341,7 +1341,7 @@ align-items: center;
 
   .chevroncontainer {
     top: 5em;
-    left: 20em;
+    left: 21em;
   }
 
   .item-grid {
