@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="chevroncontainer">
             <h3 className="contact-h3">CONTACT</h3>
             <div className="link-container">
-            <Link to="/Home" className="home-link">Home</Link>
+            <Link to="/" className="home-link">Home</Link>
             <ChevronRight color="white" fontSize={15}/>
             <p className="contact-p">Contact</p>
             </div>

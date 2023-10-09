@@ -36,7 +36,7 @@ function Signup() {
         <div className="signup-chevroncontainer">
           <h3 className="contact-h3">SIGNUP</h3>
           <div className="link-container">
-            <Link to="/Home" className="home-link">
+            <Link to="/" className="home-link">
               Home
             </Link>
             <ChevronRight color="white" fontSize={15} />

@@ -43,7 +43,7 @@ function Login() {
         <div className="login-chevroncontainer">
           <h3 className="contact-h3">LOGIN</h3>
           <div className="link-container">
-            <Link to="/Home" className="home-link">
+            <Link to="/" className="home-link">
               Home
             </Link>
             <ChevronRight color="white" fontSize={15} />
