@@ -1,7 +1,8 @@
 * {
-  box-sizing:border-box;
- 
- 
+  box-sizing: border-box;
+  
+
+
 
 }
 
@@ -11,7 +12,7 @@
 
 .myCarousel {
   width: 100%;
-  
+
 
 }
 
@@ -28,18 +29,18 @@
 }
 
 .logoSpan {
-  color:#ffa914;
+  color: #ffa914;
 }
 
 .navlink {
   font-family: 'Montserrat';
   color: black;
   font-weight: 600;
-  
+
 }
 
 .navlink:hover {
-  color:#ffa914;
+  color: #ffa914;
 }
 
 .navicon {
@@ -48,7 +49,7 @@
 }
 
 .navicon:hover {
-  color:#ffa914;
+  color: #ffa914;
 }
 
 .car {
@@ -60,7 +61,7 @@
   top: 0%;
   height: 100%;
   animation-delay: 1s;
-  
+
 }
 
 .caption {
@@ -69,8 +70,9 @@
   text-align: center;
   width: fit-content;
 }
+
 .gif {
-  top:6.5em;
+  top: 6.5em;
   left: 16em;
   height: 5em;
   position: absolute;
@@ -81,16 +83,32 @@
 
 }
 
-@-webkit-keyframes swinging{
-  0%{-webkit-transform: rotate(10deg);}
-  50%{-webkit-transform: rotate(-5deg)}
-  100%{-webkit-transform: rotate(10deg);}
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-5deg)
+  }
+
+  100% {
+    -webkit-transform: rotate(10deg);
+  }
 }
 
-@keyframes swinging{
-  0%{transform: rotate(10deg);}
-  50%{transform: rotate(-5deg)}
-  100%{transform: rotate(10deg);}
+@keyframes swinging {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-5deg)
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
 }
 
 .label {
@@ -100,19 +118,21 @@
 
 .save {
   position: absolute;
-  top:1.5em;
+  top: 1.5em;
   left: 10em;
   font-size: 1em;
 }
+
 .save2 {
   position: absolute;
-  top:1.5em;
+  top: 1.5em;
   left: 12em;
   font-size: 1em;
 }
+
 .save1 {
   position: absolute;
-  top:1.5em;
+  top: 1.5em;
   left: 7.5em
 }
 
@@ -121,15 +141,17 @@
   font-weight: 400;
   font-size: 2.5em;
   width: 11em;
-  
- 
+
+
 }
+
 .captionh3a {
   font-family: 'Londrina Solid';
   font-weight: 400;
   font-size: 2.5em;
   width: 10em;
 }
+
 .captionh3b {
   font-family: 'Londrina Solid';
   font-weight: 400;
@@ -141,6 +163,7 @@
 .cap-span {
   color: #ffa914;
 }
+
 .cap1-span {
   color: #036aad
 }
@@ -151,7 +174,7 @@
   padding-top: 2.5em;
   padding-bottom: 2.5em;
   justify-content: space-evenly;
- 
+
 }
 
 .sec1container img {
@@ -168,16 +191,18 @@
 }
 
 .salad {
-  height:18em;
+  height: 18em;
   border-radius: 1.5em;
 
 }
+
 .burger {
-  height:18em;
+  height: 18em;
   border-radius: 1.5em;
 }
+
 .fries {
-  height:18em;
+  height: 18em;
   border-radius: 1.5em;
 }
 
@@ -196,22 +221,24 @@
 
 .sec1a-h3-b {
   color: white;
-   font-family: 'Londrina Solid';
-    font-size: 2em;
-     width:10em;
+  font-family: 'Londrina Solid';
+  font-size: 2em;
+  width: 10em;
   font-weight: 500;
   padding-bottom: 1.4em;
 }
+
 .sec1a-h3-c {
- color: #036aad;
- font-family: 'Londrina SOlid';
- font-size: 1.5em;
- 
+  color: #036aad;
+  font-family: 'Londrina SOlid';
+  font-size: 1.5em;
+
 }
+
 .sec1a-h3-d {
- color: #036aad ;
- font-family: 'Londrina Solid';
- font-size: 1.5em;
+  color: #036aad;
+  font-family: 'Londrina Solid';
+  font-size: 1.5em;
 }
 
 .sec1b {
@@ -220,6 +247,7 @@
   margin: 0 auto;
   border-radius: 1.5em;
 }
+
 .sec1c {
   position: relative;
   overflow: hidden;
@@ -232,20 +260,22 @@
   top: 1em;
   left: 16em;
 }
+
 .sec1btext {
   position: absolute;
   top: 1.5em;
   left: 4em;
   text-align: center;
 }
+
 .sec1ctext {
   position: absolute;
   top: 1.5em;
   left: 1em;
-  
+
 }
 
-.sec1cbutton{
+.sec1cbutton {
   text-decoration: none;
   color: white;
   background-color: #ff5703;
@@ -254,7 +284,7 @@
   padding: 10px 17px;
   border-radius: 1.5em;
 
-  
+
 }
 
 .sec1cbutton:hover {
@@ -264,83 +294,188 @@
 
 .sec2container {
   display: grid;
-   grid-template-columns: auto auto auto auto;
-   justify-content: space-around;
-   padding-bottom: 2.5em;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  padding-bottom: 2.5em;
+  position: relative;
 }
 
-.sec2container img {
-   height: 15em;
-  
+.added-to-cart-popup {
+  position: absolute;
+  top: 68em;
+  left: 26.5%;
+  display: flex;
+  border: 2px solid #a49ba9;
+  background-color: white;
+  border-radius: 15px;
+  width: 37em;
+  gap: 2em;
 }
-  
+
+.added-to-cart-popup p {
+  font-size: 1em;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #a49ba9;
+}
+
+.added-to-cart-popup h3 {
+  font-family: 'Londrina Solid';
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  margin-top: 0.7em;
+  color: #036aad;
+}
+.insta-cart {
+  height: 15em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.popup-text {
+  display: flex;
+ flex-direction: column;
+}
+
+.popup-text1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-text1 button {
+  padding: 0px 10px 0px 10px;
+  height: fit-content;
+  margin-top: 1em;
+  border: none;
+  background-color: white;
+}
+
+.see-link {
+ 
+ color: #ffa914;
+  font-family: 'Londrina Solid';
+  font-size: 1.6em;
+}
+
+.home-minus-button {
+  border: none;
+  background-color: #a49ba975;
+  margin-bottom: 0.5em;
+  padding: 3px 7px;
+  font-family: Montserrat;
+}
+
+.addcart-home-button {
+  font-family: Londrina Solid;
+  border: none;
+  background-color: #ffa914;
+  padding: 8px 10px;
+  margin-top: 3px;
+}
+
+.home-b-container {
+ justify-content: center;
+ gap: 0.5em;
+ display: flex;
+}
+.sec2container img {
+  max-height: 15em;
+
+
+}
+
+.home-b-container span {
+  margin-top: 6px;
+  font-family: Montserrat;
+}
+
 
 
 
 
 .sec2a {
-   border: 1px solid #cccccc;
-   border-radius: 1em;
-  
-   position: relative;
-   padding-bottom: 2em;
-   padding-top: 1em;
-   
+  border: 1px solid #cccccc;
+  border-radius: 1em;
+text-align: center;
+  position: relative;
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+ 
+
+
 }
+
 .sec2b {
-   border: 1px solid #cccccc;
-   border-radius: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 1em;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
  
-   position: relative;
-   padding-bottom:2em;
-   padding-top: 1em;
 }
+
 .sec2c {
-   border: 1px solid #cccccc;
-   border-radius: 1em;
- 
-   position: relative;
-   padding-bottom: 2em;
-   padding-top: 1em;
-}
-.sec2d {
-   border: 1px solid #cccccc;
-   border-radius: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 1em;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
   
-   position: relative;
-   padding-bottom: 2em;
-   padding-top: 1em;
+}
+
+.sec2d {
+  border: 1px solid #cccccc;
+  border-radius: 1em;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  
 }
 
 .hot {
-   border: none;
-   padding: 0.2em;
-   width: 4em;
-   text-align: center;
-   border-radius: 2em;
-   background-color: #25c848;
-   color: white;
-   font-size: 0.63em;
-   position: absolute;
-   top: 1.7em;
-   left: 1.2em
+  border: none;
+  padding: 0.2em;
+  width: 4em;
+  text-align: center;
+  border-radius: 2em;
+  background-color: #25c848;
+  color: white;
+  font-size: 0.63em;
+  position: absolute;
+  top: 1.7em;
+  left: 1.2em
 }
+
 .discount {
-   border: none;
-   padding: 0.2em;
-   width: 4em;
-   text-align: center;
-   border-radius: 2em;
-   background-color: #ff2b00;
-   color: white;
-   font-size: 0.63em;
-   position: absolute;
-   top: 4em;
-   left: 1.2em
+  border: none;
+  padding: 0.2em;
+  width: 4em;
+  text-align: center;
+  border-radius: 2em;
+  background-color: #ff2b00;
+  color: white;
+  font-size: 0.63em;
+  position: absolute;
+  top: 4em;
+  left: 1.2em
 }
 
 .big {
-   width:100%
+  width: 100%
 }
 
 .sec3container {
@@ -350,7 +485,7 @@
 
 .sec3a {
   position: absolute;
-  top: 95em;
+  top: 101em;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -361,6 +496,7 @@
   font-size: 1.2em;
   color: white;
 }
+
 .sec3a-h3 {
   font-family: 'Londrina Solid';
   font-size: 2.8em;
@@ -375,7 +511,7 @@
   padding: 0.8em 1.5em;
   border-radius: 2em;
   font-size: 1em;
-  
+
 }
 
 .shop1:hover {
@@ -390,15 +526,16 @@
   padding-top: 2em;
   padding-bottom: 3em;
 }
+
 .sec4 {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  
+
 }
 
 .sec4:hover .insta1 {
-opacity: 0.7;
+  opacity: 0.7;
 }
 
 .sec4:hover .middle {
@@ -407,8 +544,8 @@ opacity: 0.7;
 
 .insta {
   font-size: 1.5em;
- 
- 
+
+
 
 }
 
@@ -427,11 +564,11 @@ opacity: 0.7;
 
 .insta1 {
   opacity: 1;
-display: block; 
-height: 13em;
-transition: .5s ease;
-backface-visibility: hidden;
-transition: transform .7s ease-in-out;
+  display: block;
+  height: 13em;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  transition: transform .7s ease-in-out;
 }
 
 .middle {
@@ -443,14 +580,14 @@ transition: transform .7s ease-in-out;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  
 
-  
+
+
 }
 
 .middle:hover {
   display: block;
-  
+
 }
 
 .follow {
@@ -463,14 +600,10 @@ transition: transform .7s ease-in-out;
 .sec5container {
   display: grid;
   grid-template-columns: auto auto auto;
-justify-content: space-between;
-align-items: center;
+  justify-content: space-between;
+  align-items: center;
+padding: 2em;
 
-  padding-top: 1em;
-  padding-bottom: 3em; 
-  padding-left: 4em;
-  padding-right: 4em;
-  
 }
 
 .sec5a-p {
@@ -486,7 +619,7 @@ align-items: center;
 .sec5c-a {
   color: #a49ba9;
   text-decoration: none;
- 
+
 
 }
 
@@ -518,14 +651,15 @@ align-items: center;
   border-radius: 15px;
   font-size: 16px;
 }
+
 .sec6container {
-  display:flex;
+  display: flex;
   background-color: black;
   justify-content: space-between;
   color: white;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  padding-top:1em;
+  padding-top: 1em;
   padding-bottom: 1em;
   font-family: 'Montserrat';
 }
@@ -543,7 +677,7 @@ align-items: center;
 .overlay {
   width: 100%;
   height: 40em;
-  
+
 }
 
 .chevroncontainer {
@@ -563,13 +697,13 @@ align-items: center;
   text-decoration: none;
   font-family: Montserrat;
   font-size: 0.8em;
-padding-right: 0.8em;
+  padding-right: 0.8em;
 
-  
+
 }
 
 .home-link:hover {
-color: #ffa914;
+  color: #ffa914;
 }
 
 .contact-p {
@@ -582,13 +716,13 @@ color: #ffa914;
 
 .link-container {
   display: flex;
-    justify-content: center;
-    padding-top: 0.5em;
+  justify-content: center;
+  padding-top: 0.5em;
 }
 
 .myform {
   width: 40em;
- 
+
 }
 
 .contact-formcontain {
@@ -599,7 +733,7 @@ color: #ffa914;
 
 .touch-h3 {
   font-family: Londrina Solid;
- margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .formlabel {
@@ -632,9 +766,10 @@ color: #ffa914;
 .contact-icon {
   margin-right: 1em;
 }
+
 .contact-icon:hover {
- color: #ffa914;
- 
+  color: #ffa914;
+
 }
 
 .formgroup {
@@ -655,7 +790,7 @@ color: #ffa914;
   font-family: Montserrat;
   margin-top: 80px;
   margin-left: 5px;
-  
+
 }
 
 .sorting-container {
@@ -682,7 +817,7 @@ color: #ffa914;
   font-family: Montserrat;
   font-size: 17px;
   font-weight: 600;
- max-width: 220px;
+  max-width: 220px;
 
 }
 
@@ -693,7 +828,7 @@ color: #ffa914;
 }
 
 .item-details {
-  
+
   text-align: center;
 }
 
@@ -753,28 +888,28 @@ color: #ffa914;
 
 .signup-form {
 
-padding: 4em 4em;
+  padding: 4em 4em;
 
 }
 
 .signup-h3 {
-font-family: Londrina Solid;
-font-size: 2em;
-padding-bottom: 1em;
+  font-family: Londrina Solid;
+  font-size: 2em;
+  padding-bottom: 1em;
 }
 
 .signup-form label {
   font-family: Montserrat;
- 
+
 }
 
 .form-group {
- gap: 0.4em;
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 1em;
- 
+  gap: 0.4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+
 }
 
 
@@ -794,17 +929,20 @@ padding-bottom: 1em;
   height: 14em;
   position: relative;
 }
+
 .signup-chevroncontainer {
   position: absolute;
   top: 4em;
   left: 36em;
 }
+
 .login-overlaycontainer {
   width: 100%;
   overflow: hidden;
   height: 14em;
   position: relative;
 }
+
 .login-chevroncontainer {
   position: absolute;
   top: 4em;
@@ -836,13 +974,13 @@ padding-bottom: 1em;
 
 .login-h3 {
   font-family: Londrina Solid;
-font-size: 2em;
-padding-bottom: 1em;
+  font-size: 2em;
+  padding-bottom: 1em;
 }
 
 .login-form label {
   font-family: Montserrat;
- 
+
 }
 
 .cart-icon {
@@ -872,22 +1010,29 @@ padding-bottom: 1em;
   justify-content: 'center';
   list-style-type: none;
 }
+
+.empty-cart-message p {
+  font-family: Montserrat;
+}
+
+
+
 .item-listing {
   border: 1px solid rgba(128, 128, 128, 0.121);
- 
-
- padding-top: 1em;
- padding-bottom: 1em;
-align-items: center;
- display: flex;
 
 
- padding-left: 2em;
- padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  align-items: center;
+  display: flex;
+
+
+  padding-left: 2em;
+  padding-right: 5em;
 }
 
 .item-middle {
- margin-left: 50px;
+  margin-left: 50px;
   font-family: Londrina Solid;
   text-align: center;
 }
@@ -926,16 +1071,16 @@ align-items: center;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 4em;
- 
-  
-  
+
+
+
 }
 
 .quantity-button {
   border: none;
   background-color: #a49ba975;
   margin-bottom: 0.5em;
-  
+
 }
 
 .quantity-control {
@@ -943,111 +1088,147 @@ align-items: center;
   gap: 0.5em;
   justify-content: center;
   align-items: center;
-  
+
 }
+
+.see-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+ 
+ 
+}
+
 /* Styles for screens smaller than 768px (phones) */
 @media (max-width: 767px) {
+  .added-to-cart-popup {
+    display: none;
+  }
+
+  .see-container{
+    flex-direction: column;
+  
+  
+    
+    
+  }
+
+  .see-link {
+   
+    
+  }
 
   .caption {
     top: 1em;
     left: 3.5em;
-    }
-  
-    .gif {
-      top: 1em;
-      height: 1.5em;
-      left: 4.7em;
-    }
-  
-    .label {
-      width: 4.5em;
-    }
-    
-    .save {
-      left: 5.6em;
-      font-size: 0.4em;
-      top: 4.7em;
-    }
-    .save1 {
-      left: 4em;
-      font-size: 0.4em;
-      top: 4.7em;
-    }
-    .save2 {
-      left: 7em;
-      font-size: 0.4em;
-      top: 4.7em;
-    }
-    .captionh3 {
-      font-size: 0.7em;
-    }
-  
-    .captionh3a {
-      font-size: 0.7em;
-    }
-    .captionh3b {
-      font-size: 0.7em;
-    }
+  }
 
-    .sec1container {
-      grid-template-columns: auto;
-      gap: 20px;
-    }
-  
-    .sec1a-h3-a {
-      font-size: 1em;
-    }
-    .sec1a-h3-b {
-      font-size: 1em;
-    }
-    .sec1a-h3-c {
-      font-size: 1em;
-    }
-    .sec1a-h3-d {
-      font-size: 1em;
-    }
-  
-  
-    .sec1atext {
-     left: 10.5em;
-    }
-    .salad {
-      height: 11em;
-    }
-  
-    .sec2container {
-      grid-template-columns: auto;
-      gap: 20px;
-    }
+  .gif {
+    top: 1em;
+    height: 1.5em;
+    left: 4.7em;
+  }
 
-    .sec3a {
-      top: 168em;
-      bottom: auto;
-      }
-    
-      .sec3a-p {
-        font-size: 0.5em;
-      }
-      .sec3a-h3 {
-        font-size: 1em;
-      }
+  .label {
+    width: 4.5em;
+  }
 
-      .shop1 {
-        font-size: 0.6em;
-      }
+  .save {
+    left: 5.6em;
+    font-size: 0.4em;
+    top: 4.7em;
+  }
 
-      .sec4container {
-        grid-template-columns: auto;
-        gap: 5px;
-      }
+  .save1 {
+    left: 4em;
+    font-size: 0.4em;
+    top: 4.7em;
+  }
 
-      
+  .save2 {
+    left: 7em;
+    font-size: 0.4em;
+    top: 4.7em;
+  }
+
+  .captionh3 {
+    font-size: 0.7em;
+  }
+
+  .captionh3a {
+    font-size: 0.7em;
+  }
+
+  .captionh3b {
+    font-size: 0.7em;
+  }
+
+  .sec1container {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .sec1a-h3-a {
+    font-size: 1em;
+  }
+
+  .sec1a-h3-b {
+    font-size: 1em;
+  }
+
+  .sec1a-h3-c {
+    font-size: 1em;
+  }
+
+  .sec1a-h3-d {
+    font-size: 1em;
+  }
+
+
+  .sec1atext {
+    left: 10.5em;
+  }
+
+  .salad {
+    height: 11em;
+  }
+
+  .sec2container {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .sec3a {
+    top: 198em;
+    bottom: auto;
+  }
+
+  .sec3a-p {
+    font-size: 0.5em;
+  }
+
+  .sec3a-h3 {
+    font-size: 1em;
+  }
+
+  .shop1 {
+    font-size: 0.6em;
+  }
+
+  .sec4container {
+    grid-template-columns: auto;
+    gap: 5px;
+  }
+
+
   .sec5container {
     grid-template-columns: auto;
     align-items: center;
     justify-content: center;
     width: fit-content;
-    gap: 20px;
+    gap: 2em;
+  
+    text-align: center;
   }
 
   .signupinput {
@@ -1060,25 +1241,27 @@ align-items: center;
 
   .sec6container {
     flex-direction: column;
-  }
+   
     
+  }
+
 
   .cart-h1 {
-    font-size: 24px; 
+    font-size: 24px;
   }
 
   .cart-list-container {
     flex-direction: column;
 
-    
-   
+
+
   }
 
   .item-listing {
     flex-direction: column;
     max-width: 19em;
-  
-   
+
+
   }
 
   .item-image {
@@ -1086,27 +1269,30 @@ align-items: center;
   }
 
   .cart-subtotal {
-   width: 19em;
+    width: 19em;
   }
 
   .cart-total {
-   margin-left: 1.1em;
-   max-width: 21em;
+    margin-left: 1.1em;
+    max-width: 21em;
   }
 
   .overlaycontainer {
     width: 100%;
     height: 10em;
   }
+
   .signup-overlaycontainer {
     width: 100%;
     height: 10em;
   }
+
   .login-overlaycontainer {
     width: 100%;
     height: 10em;
   }
-  .overlay{
+
+  .overlay {
     width: 100%;
     height: 15em;
   }
@@ -1115,10 +1301,12 @@ align-items: center;
     top: 2em;
     left: 6.5em;
   }
+
   .signup-chevroncontainer {
     top: 2em;
-    left:8em;
+    left: 8em;
   }
+
   .login-chevroncontainer {
     top: 2em;
     left: 8em;
@@ -1135,7 +1323,7 @@ align-items: center;
   .contact-formcontain {
     flex-direction: column;
     align-items: center;
-    
+
   }
 
   .myform {
@@ -1143,33 +1331,33 @@ align-items: center;
     margin-bottom: 3em;
   }
 
- .signup-contain {
-  flex-direction: column;
- }
+  .signup-contain {
+    flex-direction: column;
+  }
 
- .onboard1 {
-  height: 15em;
- }
+  .onboard1 {
+    height: 15em;
+  }
 
- .signup-form {
-  width: 100%;
- } 
+  .signup-form {
+    width: 100%;
+  }
 
- .signup-form input {
-  width: 9em;
- }
- 
- .login-contain {
-  flex-direction: column;
- }
- 
- .login-form {
-  width: 100%;
- } 
+  .signup-form input {
+    width: 9em;
+  }
 
- .login-form input {
-  width: 9em;
- }
+  .login-contain {
+    flex-direction: column;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+
+  .login-form input {
+    width: 9em;
+  }
 }
 
 /* Styles for screens between 768px and 1024px (tablets) */
@@ -1177,134 +1365,145 @@ align-items: center;
   .caption {
     top: 5em;
     left: 7em;
-    }
-  
-    .gif {
-      top: 3em;
-      height: 3em;
-      left: 11em;
-    }
-  
-    .label {
-      width: 11em;
-    }
-    
-    .save {
-      left: 7em;
-      font-size: 1em;
-      top: 1.4em;
-    }
-    .save1 {
-      left: 5.2em;
-      font-size: 1em;
-      top:1.5em;
-    }
-    .save2 {
-      left: 8.5em;
-      font-size: 1em;
-      top: 1.4em;
-    }
-    .captionh3 {
-      font-size: 2em;
-    }
-  
-    .captionh3a {
-      font-size: 2em;
-    }
-    .captionh3b {
-      font-size: 2em;
-    }
+  }
 
-    .sec1container {
-      grid-template-columns:  auto ;
-      gap: 20px;
-    }
-  
-    .sec1a-h3-a {
-      font-size: 2em;
-    }
-    .sec1a-h3-b {
-      font-size: 2em;
-    }
-    .sec1a-h3-c {
-      font-size: 2em;
-    }
-    .sec1a-h3-d {
-      font-size: 2em;
-    }
-  
-  
-    .sec1atext {
-     left: 19em;
-    }
-    .salad {
-      height: 20em;
-    }
-    .fries {
-      height: 20em;
-    }
-    .burger {
-      height: 20em;
-    }
-    
-    .sec2container {
-      grid-template-columns: auto auto;
-      gap: 20px;
-    }
+  .gif {
+    top: 3em;
+    height: 3em;
+    left: 11em;
+  }
 
-    .sec3a {
-      top: 151em;
-      bottom: auto;
-      }
-    
-      .sec3a-p {
-        font-size: 1em;
-      }
+  .label {
+    width: 11em;
+  }
 
-      .sec4container {
-        grid-template-columns: auto auto auto;
-        gap: 5px;
-      }
+  .save {
+    left: 7em;
+    font-size: 1em;
+    top: 1.4em;
+  }
 
-      .sec5container {
-        grid-template-columns: auto;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-      }
+  .save1 {
+    left: 5.2em;
+    font-size: 1em;
+    top: 1.5em;
+  }
 
-      .signupinput {
-        width: 20em;
-      }
-    
-      .signbutton {
-        display: none;
-      }
-    
-      .sec6container {
-        flex-direction: row;
-      }
-    
-  
+  .save2 {
+    left: 8.5em;
+    font-size: 1em;
+    top: 1.4em;
+  }
+
+  .captionh3 {
+    font-size: 2em;
+  }
+
+  .captionh3a {
+    font-size: 2em;
+  }
+
+  .captionh3b {
+    font-size: 2em;
+  }
+
+  .sec1container {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .sec1a-h3-a {
+    font-size: 2em;
+  }
+
+  .sec1a-h3-b {
+    font-size: 2em;
+  }
+
+  .sec1a-h3-c {
+    font-size: 2em;
+  }
+
+  .sec1a-h3-d {
+    font-size: 2em;
+  }
+
+
+  .sec1atext {
+    left: 19em;
+  }
+
+  .salad {
+    height: 20em;
+  }
+
+  .fries {
+    height: 20em;
+  }
+
+  .burger {
+    height: 20em;
+  }
+
+  .sec2container {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
+  .sec3a {
+    top: 164em;
+    bottom: auto;
+  }
+
+  .sec3a-p {
+    font-size: 1em;
+  }
+
+  .sec4container {
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+  }
+
+  .sec5container {
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .signupinput {
+    width: 20em;
+  }
+
+  .signbutton {
+    display: none;
+  }
+
+  .sec6container {
+    flex-direction: row;
+  }
+
+
   .cart-h1 {
-    font-size: 36px; /* Example: Adjust font size for tablets */
+    font-size: 36px;
+    /* Example: Adjust font size for tablets */
   }
 
   .cart-list-container {
     flex-direction: column;
     align-items: center;
 
-    
-   
+
+
   }
 
   .item-listing {
     flex-direction: column;
     max-width: 22em;
     margin-bottom: 1em;
-  
-  
-   
+
+
+
   }
 
   .item-image {
@@ -1312,13 +1511,13 @@ align-items: center;
   }
 
   .cart-subtotal {
-   width: 19em;
+    width: 19em;
   }
 
   .cart-total {
-  
-   width: 100em;
-    
+
+    width: 100em;
+
   }
 
   .overlaycontainer {
@@ -1328,13 +1527,15 @@ align-items: center;
 
   .signup-chevroncontainer {
     top: 4em;
-    left:22em;
+    left: 22em;
   }
+
   .login-chevroncontainer {
     top: 4em;
-    left:22em;
+    left: 22em;
   }
-  .overlay{
+
+  .overlay {
     width: 100%;
     height: 23em;
   }
@@ -1355,7 +1556,7 @@ align-items: center;
   .contact-formcontain {
     flex-direction: column;
     align-items: center;
-    
+
   }
 
   .myform {
@@ -1365,36 +1566,33 @@ align-items: center;
 
   .signup-contain {
     flex-direction: column;
-   }
-  
-   .onboard1 {
-    height: 30em;
-   }
-  
-   .signup-form {
-    width: 100%;
-   } 
-  
-   .signup-form input {
-    width: 20em;
-   }
+  }
 
-   .login-contain {
-    flex-direction: column;
-   }
-   
-   .login-form {
+  .onboard1 {
+    height: 30em;
+  }
+
+  .signup-form {
     width: 100%;
-   } 
-  
-   .login-form input {
+  }
+
+  .signup-form input {
     width: 20em;
-   }
-    
+  }
+
+  .login-contain {
+    flex-direction: column;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+
+  .login-form input {
+    width: 20em;
+  }
+
 
 
   /* Add more styles as needed */
 }
-
-
-
