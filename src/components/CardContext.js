@@ -44,20 +44,44 @@ export function CartProvider({ children }) {
     }
   };
 
-  const removeFromCart = (itemToRemove) => {
+  const removeFromCart = (itemToRemove, removeAll = false) => {
+    if (removeAll) {
+      // If removeAll is true, remove all instances of the item from the cart
+      const updatedCartItems = cartItems.filter((item) => item.id !== itemToRemove.id);
+      const removedQuantity = cartItems.find((item) => item.id === itemToRemove.id)?.quantity || 0;
+      updateCart(updatedCartItems, cartCount - removedQuantity);
+    } else {
+      // Otherwise, check if there's more than one instance of the item
+      const itemIndex = cartItems.findIndex((item) => item.id === itemToRemove.id);
+  
+      if (itemIndex !== -1) {
+        const updatedCartItems = [...cartItems];
+  
+        if (updatedCartItems[itemIndex].quantity > 1) {
+          // If there's more than one instance, reduce the quantity by 1
+          updatedCartItems[itemIndex].quantity -= 1;
+        } else {
+          // If there's only one instance, remove the item immediately
+          updatedCartItems.splice(itemIndex, 1);
+        }
+  
+        updateCart(updatedCartItems, cartCount - 1);
+      }
+    }
+  };
+  const removeCardFromCart = (itemToRemove) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== itemToRemove.id);
     const removedQuantity = cartItems.find((item) => item.id === itemToRemove.id)?.quantity || 0;
     updateCart(updatedCartItems, cartCount - removedQuantity);
   };
-
-  // Add a function to remove all items from the cart
-  const removeAllFromCart = () => {
-    updateCart([], 0);
-  };
+  
+  
+  
+  
 
   return (
     <CartContext.Provider
-      value={{ cartCount, cartItems, addToCart, removeFromCart, removeAllFromCart }}
+      value={{ cartCount, cartItems, addToCart, removeFromCart, removeCardFromCart }}
     >
       {children}
     </CartContext.Provider>
